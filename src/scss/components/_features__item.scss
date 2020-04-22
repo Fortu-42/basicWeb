@@ -1,0 +1,13 @@
+.features {
+  &__item {
+    i {
+      font-size: 20px;
+      width: 15px;
+      height: 15px;
+      padding: 0.7rem;
+      color: white;
+      background-color: $primary;
+      border-radius: 100%;
+    }
+  }
+}

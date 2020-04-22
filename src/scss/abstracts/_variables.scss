@@ -1,0 +1,45 @@
+$primary: #00d3b5;
+$green-check: #91c94e;
+$primary-light: #693a88;
+$primary-lighter: rgba($primary, 0.5);
+$primary-lightest: rgba($primary, 0.3);
+
+$secondary: #ff5800;
+$secondary-light: rgba($secondary, 0.7);
+$secondary-lighter: rgba($secondary, 0.5);
+$secondary-lightest: rgba($secondary, 0.3);
+
+$tertiary: #9ab5c2;
+$tertiary-light: rgba($tertiary, 0.7);
+$tertiary-lighter: rgba($tertiary, 0.5);
+$tertiary-lightest: rgba($tertiary, 0.3);
+
+$text-primary: #323232;
+$text-secondary: #e8f1f2;
+$input-error: #ef233c;
+$waze: #74d0eb;
+
+$border-button-color: #bdc3c7; //*
+$border-card-color: #f3f1f1; //*
+$gray-bg: #c3baba;
+$gray-color-text: #8a8989;
+$disabled-button: rgba(217, 217, 217, 0.3); //*
+$disabled-text: rgba(0.5, 0.5, 0.5, 0.4); //*
+$border-accordion: rgba(117, 154, 171, 0.15); //*
+$white: white;
+$bg-secondary-50: rgba($text-secondary, 0.5);
+$white-2: rgba(white, 0.2);
+
+// BREAKPOINTS
+$desktop-wide: 1920px;
+$desktop: 1440px;
+
+// BOX SHADOW
+
+$primary-shadow: 0 15px 40px 0 rgba(48, 33, 48, 0.1);
+
+//backgrounds
+$background-overlay: rgba(50, 50, 50, 0.3);
+
+$font-heading: 'Nunito Sans', sans-serif;
+$font-body: 'Roboto', sans-serif;

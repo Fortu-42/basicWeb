@@ -1,0 +1,31 @@
+.mobile-menu {
+  z-index: 10;
+  transform: translateX(100%);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  &.is-active {
+    transform: translateX(0);
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  ul {
+    background-color: white;
+    li {
+      margin-bottom: 1rem;
+      a {
+        font-size: 1.5rem;
+        color: black;
+        &:hover {
+          color: black;
+        }
+        &:active {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+}

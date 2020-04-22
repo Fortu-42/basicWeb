@@ -1,0 +1,18 @@
+.top-nav {
+  top: 0;
+  left: 0;
+  z-index: 10;
+  ul {
+    li {
+      a {
+        transition: all 0.5s ease-in-out;
+        color: black;
+      }
+    }
+  }
+  [data-aos='active'] {
+    &.aos-animate {
+      color: $primary;
+    }
+  }
+}

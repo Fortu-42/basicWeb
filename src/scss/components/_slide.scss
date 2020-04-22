@@ -1,0 +1,10 @@
+.slide {
+  &__image {
+    width: 60px;
+  }
+  &__body {
+    line-height: 2;
+    font-size: 18px;
+    font-style: italic;
+  }
+}

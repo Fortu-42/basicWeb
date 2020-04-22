@@ -1,0 +1,20 @@
+.glide {
+  &__bullets {
+    bottom: -2.5rem;
+  }
+  &__bullet {
+    background-color: rgba($color: $gray-color-text, $alpha: 0.6);
+    &--active {
+      background-color: $primary;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      &:active {
+        background-color: $primary;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      }
+      &:focus {
+        background-color: $primary;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+}

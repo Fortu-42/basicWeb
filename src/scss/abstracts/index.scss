@@ -1,0 +1,15 @@
+@import './bootstrap-spacing';
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import './variables';
+@import '../assets/fonts/flaticon/font/flaticon.scss';
+@import '../assets/fonts/icomoon/style.css';
+// Required Core Stylesheet
+@import 'node_modules/@glidejs/glide/src/assets/sass/glide.core';
+// Optional Theme Stylesheet
+@import 'node_modules/@glidejs/glide/src/assets/sass/glide.theme';
+@import './hamburger-config';
+@import 'node_modules/hamburgers/_sass/hamburgers/hamburgers';
+$aos-distance: 40px; // It has to be above import
+@import 'node_modules/aos/src/sass/aos';
+// @import '../../assets/fonts/icomoon/style';
+// @import './flaticon-fonts';

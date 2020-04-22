@@ -1,0 +1,28 @@
+.showcase {
+  &__img {
+    max-width: 100%;
+  }
+  &__list {
+    li {
+      position: relative;
+      display: flex;
+      align-items: baseline;
+      padding-left: 40px;
+      font-size: 14px;
+      color: $gray-color-text;
+      &:before {
+        top: -3px;
+        font-family: 'icomoon' !important;
+        position: absolute;
+        left: 0;
+        content: '\e5ca';
+        font-size: 20px;
+        color: $green-check;
+      }
+    }
+  }
+  p {
+    font-size: 14px;
+    color: $gray-color-text;
+  }
+}

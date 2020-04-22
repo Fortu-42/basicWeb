@@ -1,0 +1,21 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  width: fit-content;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  &:hover {
+    text-decoration: none;
+  }
+  &--primary {
+    background-color: $primary;
+    border-radius: 30px;
+    &:hover {
+      background-color: darken($color: $primary, $amount: 6);
+    }
+  }
+}
